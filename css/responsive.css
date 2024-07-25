@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px){
+    .section1{
+      position: relative;
+       text-align: left;
+    }
+
+    .section1 .loper{  
+       position: absolute;
+       top: 20%;
+       width: 30%;
+       height: auto;
+       
+      
+    }
+
+    .section1 .loper p{
+        color: black;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .section1 img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        
+    }
+
+    /* section three */
+
+    .section3 {
+        display: flex;
+        justify-content: space-between; 
+        gap: 20px; 
+        padding: 20px; 
+    }
+    
+    .react, p, .control {
+        flex: 1; 
+         
+    }
+    
+    .react img{
+        width: 100%; 
+        height: 200px;
+        
+        
+    }
+
+    .control img{
+        margin-top: 30px;
+    }
+    
+    button {
+        margin: 10px; 
+    }
+    
+    p {
+        margin-top: 10px; /* Space above paragraphs */
+    
+    }
+
+    /* section four */
+
+    .section4 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px; 
+        text-align: center;
+        margin: 80px;
+      
+    }
+}
+    
