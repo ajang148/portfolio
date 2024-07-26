@@ -2,7 +2,7 @@
     font-family: 'poppins', Arial, Helvetica, sans-serif;
     padding: o;
     margin: 0;
-    /* background-color:#8b98dc; */
+     background-color:#8b98dc; 
 }
 
 nav {
@@ -65,7 +65,7 @@ nav {
 }
 
 #contactForm {
-    background-color: white;
+    background-color: #8b98dc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -133,11 +133,11 @@ nav {
 }
 
 .project {
-    border: 1px solid #ddd;
+    border: 1px solid #8b98dc;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #8b98dc;
     text-align: center;
 }
 
@@ -186,6 +186,7 @@ nav {
 .section1 img{
     width: 100%;
 }
+
 
 .section1 button{
     font-size: 1em;
