@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px){
+    .projects {
+        grid-template-columns: repeat(2 , 1fr); /* Stack items on small screens */
+    }
     .section1{
       position: relative;
        text-align: left;
