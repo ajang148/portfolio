@@ -14,49 +14,50 @@ nav {
     
   }
 
-  .nav-left a {
+.nav-left a {
     text-decoration: none;
     color: #000; 
     font-weight: bold; 
     
-  }
+}
 
-  .nav-right ul {
+.nav-right ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: baseline; 
-  }
+}
 
-  .nav-right li {
+.nav-right li {
     margin-left: 20px;
      
-  }
+}
 
   
 
-  .nav-right a {
+.nav-right a {
     text-decoration: none;
     color: #000; 
     margin-top: 10px;
-  }
+}
 
-  .nav-right button {
+.nav-right button {
     background-color: purple; 
     color: white;
     border: none;
     padding: 10px 20px; 
     border-radius: 5px; 
     cursor: pointer; 
-  }
+}
 
-  .nav-right button:hover {
+.nav-right button:hover {
     background-color: #0056b3; 
-  }
+}
 
   /* contact */
-  .contact-form-container {
+  
+.contact-form-container {
     display: flex; /* Flexbox to center form */
     justify-content: center;
     align-items: center;
